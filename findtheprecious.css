@@ -1,5 +1,15 @@
+@font-face{
+  font-family: "aniron";
+  src: url(pete-klassen_aniron/anirm__.ttf);
+}
+
+@font-face{
+  font-family: "tengwar";
+  src: url(tengwar_annatar/tngan.ttf);
+}
+
 body{
-  font-family:helvetica;
+  font-family: "aniron";
 }
 
 .container{
@@ -7,18 +17,9 @@ body{
   margin-bottom: 20px;
 }
 
-.dark-blue-text {
-  color:white;
-}
-
-h1{
-  font-size: 180%;
-  margin-top:10px;
-  color: white;
-}
-
-img{
-  object-fit:cover;
+section{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .row{
@@ -26,23 +27,86 @@ img{
   margin-bottom: 20px;
 }
 
+/* HEADER */
+
+header nav{
+  background-color: darkorange;
+}
+
+h1{
+  font-size: 100%;
+  margin-top:10px;
+  color:white;
+}
+
+a.nav:link, a.nav:visited{
+  color:white;
+}
+
+.navbar-light .navbar-toggler-icon{
+  background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* CARROUSEL */
+
+.carousel-caption{
+  height:500px;
+  padding-top: 200px;
+}
+
+.titre_carrousel{
+  text-align: left;
+  vertical-align: middle;
+  font-size: 250%;
+}
+
+.titre_carrousel_petit{
+  text-align: left;
+  vertical-align: middle;
+  font-size: 150%;
+}
+
+
+img{
+  object-fit:cover;
+}
+
+
+
 .carousel-item img{
   height:500px;
   object-fit: cover;
 }
 
-section{
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
 
+
+
+/* CARDS */
 
 h2{
-  margin-top:20px;
+  font-size: 150%;
 }
 
 .span_fellows{
-  font-size: 16pt;
+  font-size: 80%;
+}
+
+.nav-link{
+  color:black
+}
+
+.nav-pills .nav-link.active{
+  color:darkorange;
+  background-color: white;
+  text-decoration: underline;
+  text-underline-position: under;
+
+}
+
+.symbol{
+  font-family: "tengwar";
+  font-size: 140%;
+  color:darkorange;
 }
 
 .bloc{
@@ -65,12 +129,12 @@ h2{
   text-align:center;
   background-color:rgba(255,255,255,0.8); 
   position:absolute;
-  font-size:200%;
+  font-size:160%;
   line-height: 1;
   border-radius:10px;
   padding-left:10%;
   padding-right:10%;
-  padding-top: 3%;
+  padding-top: 6%;
 }
 
 .nom{
@@ -99,6 +163,8 @@ h2{
   font-size:180%;
   color:white;
 }
+
+/* AUTRES SECTIONS */
 
 .btn-primary{
   width: auto;
@@ -143,6 +209,8 @@ td, th{
 input{
   bottom: 10px;
 }
+
+/* FOOTER */
   
 footer{
   margin-top:20px;
@@ -159,6 +227,4 @@ a.one:link, a.one:visited{
   color:white;
 }
 
-.navbar-light .navbar-toggler-icon{
-  background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-}
+
