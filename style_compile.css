@@ -1,0 +1,77 @@
+.rect-1 {
+    border: 5px solid orange;
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    box-shadow: inset 3.5714285714px 3.5714285714px 4.1666666667px rgba(255, 165, 0, 0.4), 3.5714285714px 3.5714285714px 4.1666666667px rgba(255, 165, 0, 0.4);
+  }
+  
+  .rect-2 {
+    border: 16px solid gold;
+    border-radius: 80px;
+    height: 160px;
+    width: 160px;
+    margin: 32px;
+    box-shadow: inset 11.4285714286px 11.4285714286px 13.3333333333px rgba(255, 215, 0, 0.4), 11.4285714286px 11.4285714286px 13.3333333333px rgba(255, 215, 0, 0.4);
+  }
+  
+  .rect-3 {
+    border: 3px solid black;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    margin: 6px;
+    box-shadow: inset 2.1428571429px 2.1428571429px 2.5px rgba(0, 0, 0, 0.4), 2.1428571429px 2.1428571429px 2.5px rgba(0, 0, 0, 0.4);
+    margin: -6px;
+  }
+  
+  .rect-4 {
+    border: 4px solid black;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    margin: 8px;
+    box-shadow: inset 2.8571428571px 2.8571428571px 3.3333333333px rgba(0, 0, 0, 0.4), 2.8571428571px 2.8571428571px 3.3333333333px rgba(0, 0, 0, 0.4);
+    margin: -8px;
+  }
+  
+  .rect-5 {
+    border: 5px solid black;
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    box-shadow: inset 3.5714285714px 3.5714285714px 4.1666666667px rgba(0, 0, 0, 0.4), 3.5714285714px 3.5714285714px 4.1666666667px rgba(0, 0, 0, 0.4);
+    margin: -10px;
+  }
+  
+  .rect-6 {
+    border: 6px solid black;
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+    margin: 12px;
+    box-shadow: inset 4.2857142857px 4.2857142857px 5px rgba(0, 0, 0, 0.4), 4.2857142857px 4.2857142857px 5px rgba(0, 0, 0, 0.4);
+    margin: -12px;
+  }
+  
+  .rect-7 {
+    border: 7px solid black;
+    border-radius: 35px;
+    height: 70px;
+    width: 70px;
+    margin: 14px;
+    box-shadow: inset 5px 5px 5.8333333333px rgba(0, 0, 0, 0.4), 5px 5px 5.8333333333px rgba(0, 0, 0, 0.4);
+    margin: -14px;
+  }
+  
+  .rect-8 {
+    border: 8px solid black;
+    border-radius: 40px;
+    height: 80px;
+    width: 80px;
+    margin: 16px;
+    box-shadow: inset 5.7142857143px 5.7142857143px 6.6666666667px rgba(0, 0, 0, 0.4), 5.7142857143px 5.7142857143px 6.6666666667px rgba(0, 0, 0, 0.4);
+    margin: -16px;
+  }

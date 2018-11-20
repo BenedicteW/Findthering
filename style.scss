@@ -1,0 +1,23 @@
+@mixin ring($size, $color){
+    border:$size/10 solid $color;
+    border-radius:$size/2;
+    height:$size;
+    width:$size;
+    margin:$size/5;
+    box-shadow: inset $size/14 $size/14 $size/12 transparentize($color, 0.6), $size/14 $size/14 $size/12 transparentize($color, 0.6);
+  }
+  
+  .rect-1 {
+    @include ring(50px, orange)
+  }
+  
+  .rect-2{
+    @include ring(160px, gold)
+  }
+  
+  @for $i from 3 through 8{
+    .rect-#{$i}{
+      @include ring($i*10px, black);
+      margin:-$i*2px;
+    }
+  }
